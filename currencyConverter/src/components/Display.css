@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 1px;
+}
+.input-container {
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.input-box {
+    width: 45%; 
+}
+
+.input-label {
+    color: rgba(0, 0, 0, 0.6); 
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.input-field {
+    outline: none;
+    color: black;
+    width: 100%;
+    background-color: transparent;
+    padding: 6px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.currency-selector {
+    width: 45%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+.currency-label {
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.currency-dropdown {
+    border-radius: 8px;
+    padding: 4px;
+    /* background-color: black; */
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: black;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
